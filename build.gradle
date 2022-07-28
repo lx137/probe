@@ -23,3 +23,26 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+/*
+plugins {
+	id "com.microsoft.azure.azurewebapp" version "1.2.0"
+}
+
+
+azurewebapp {
+	subscription = '14ffeb54-9192-4b92-93c0-540128f073db'
+	resourceGroup = 'Kasino'
+	appName = 'ASP-Kasino-80b9'
+	region = '<region like 'UK'>'
+	runtime {
+		os = 'Linux'
+		webContainer = 'Java SE'
+		javaVersion = 'Java 8'
+	}
+	appSettings {
+		<key> = <value>
+	}
+	auth {
+		type = 'azure_cli' // support azure_cli, oauth2, device_code and service_principal
+	}
+}*/
